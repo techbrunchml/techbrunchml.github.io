@@ -1,0 +1,82 @@
+:root {
+  --primary: #ef6c00;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+#root {
+  margin: 0;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.btn {
+  padding: 0.6rem 0.75rem;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  background: rgb(255, 136, 38) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 136, 38) 0%,
+    rgba(239, 108, 0, 1) 100%
+  ) !important;
+  border: none !important;
+}
+
+input {
+  background-color: #f0f0f0;
+  border: 1px solid #eee;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.2em;
+  color: var(--dark);
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid var(--primary);
+}
+
+input:focus:invalid,
+input:focus.invalid {
+  border: 1px solid var(--danger) !important;
+}
