@@ -23,7 +23,7 @@ function Homepage() {
           className={`${styles.navbar} row d-flex flex-column flex-md-row justify-content-center align-items-center mt-4 py-4`}
         >
           <h1 className="w-75 text-center mt-2 mt-md-0 mb-0">
-            we are what we <span className="text-primary">code</span>
+            tech<span className="text-primary">brunch</span>
           </h1>
         </section>
         <section
